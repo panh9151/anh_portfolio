@@ -1,0 +1,50 @@
+[
+    {
+        "name": "HTML",
+        "reference": null,
+        "type": "frontend",
+        "color": "DD4B25"
+    },
+    {
+        "name": "SCSS",
+        "reference": "CSS",
+        "type": "frontend",
+        "color": "254BDD"
+    },
+    {
+        "name": "CSS",
+        "reference": null,
+        "type": "frontend",
+        "color": "254BDD"
+    },
+    {
+        "name": "ReactJS",
+        "reference": "Javascript",
+        "type": "frontend",
+        "color": "5ED3F3"
+    },
+    {
+        "name": "Bootstrap",
+        "reference": "CSS",
+        "type": "frontend",
+        "color": "5ED3F3"
+    },
+    {
+        "name": "Javascript",
+        "reference": null,
+        "type": "both",
+        "color": "5ED3F3"
+    },
+    {
+        "name": "Nodejs",
+        "reference": "Javascript",
+        "type": "backend",
+        "color": "5ED3F3"
+    },
+    {
+        "name": "T-SQL",
+        "reference": "",
+        "type": "backend",
+        "color": "5ED3F3"
+    }
+]
