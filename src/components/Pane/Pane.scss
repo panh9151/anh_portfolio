@@ -366,7 +366,8 @@
     .project-detail__heading {
         font-size: 1.8rem;
         font-weight: 500;
-        color: #666
+        color: #666;
+        word-wrap: break-word;
     }
 
     .project-detail__date {

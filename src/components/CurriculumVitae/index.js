@@ -117,15 +117,15 @@ const BackButton = (props) => {
 
 const ProjectTable = (props) => {
     useEffect(() => {
-        fetch("./projects.json")
+        fetch("/anh_portfolio/projects.json")
             .then(res => res.json())
             .then(data => {
                 const result = data.find(item => item.id === props.cv)
                 if (result.table) {
-                    setTable(result.table)
                     setHeading(result.title)
                     setStart(result.start)
                     setEnd(result.end)
+                    setTable(result.table)
                 }
             })
     }, [props.cv])
