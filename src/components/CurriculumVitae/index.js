@@ -126,14 +126,17 @@ const ProjectTable = (props) => {
                     setStart(result.start)
                     setEnd(result.end)
                     setTable(result.table)
+                    setReferenceUrl(result.referenceUrl)
                 }
             })
     }, [props.cv])
     const [table, setTable] = useState(null);
+    const [referenceUrl, setReferenceUrl] = useState(null);
     const [heading, setHeading] = useState(null);
     const [start, setStart] = useState(null);
     const [end, setEnd] = useState(null);
     const columns = (table) ? Object.keys(table) : null;
+    const references = (referenceUrl) ? Object.keys(referenceUrl) : null;
 
     return (table)
         ? <div className="w-100 project-detail">
@@ -143,12 +146,32 @@ const ProjectTable = (props) => {
                 <span> - </span>
                 <span>{end}</span>
             </div>
+            <span className="reference-heading">References: </span>
+            <ul className="reference-ul">
+                {references.map((reference, referenceIndex) => (
+                    <li className="reference-li" key={referenceIndex}>
+                        <a className="reference-a" href={referenceUrl[reference]}>
+                            {reference}
+                        </a>
+                    </li>
+                ))}
+            </ul>
             <table className="w-100 project-detail__table">
                 <tbody>
                     {columns.map((column, columnIndex) => (
                         <tr key={columnIndex}>
                             <th>{column}</th>
-                            <td>{Array.isArray(table[column]) ? table[column].join(', ') : table[column]}</td>
+                            <td>
+                                {Array.isArray(table[column]) ? (
+                                    <ul>
+                                        {table[column].map((item, index) => (
+                                            <li key={index}>{item}</li>
+                                        ))}
+                                    </ul>
+                                ) : (
+                                    table[column]
+                                )}
+                            </td>
                         </tr>
                     ))}
                 </tbody>

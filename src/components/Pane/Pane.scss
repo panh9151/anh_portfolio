@@ -156,6 +156,10 @@
             // box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.10);
             transition: background-color .2s ease;
 
+            .portfolio__pane-background-img {
+                border-color: var(--primary-color);
+            }
+
             .portfolio__project-arrow {
                 opacity: 1;
 

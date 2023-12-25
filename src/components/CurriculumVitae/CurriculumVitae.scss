@@ -118,4 +118,34 @@
     .higher-bottom {
         margin-bottom: 4rem;
     }
+
+    td {
+        list-style: circle;
+    }
+}
+
+.reference-heading {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.reference-ul {
+    list-style: none;
+    display: inline-flex;
+    gap: 1rem;
+
+    .reference-li {}
+
+    .reference-a {
+        font-size: 1.2rem;
+        display: block;
+        margin-top: .5rem;
+        padding: 1rem;
+        border: .1rem solid #ddd;
+        border-radius: 1rem;
+        color: #999;
+        text-decoration: none;
+    }
 }
