@@ -27,7 +27,7 @@
             }
         ],
         "table": {
-            "Client": "t",
+            "Client": "Self",
             "Descriptions": "Website for showing portfolio (https://panh9151.github.io/anh_portfolio/)",
             "Number of members": 1,
             "Position": "Design + Front-end developer (ReactJS)",
@@ -39,6 +39,11 @@
                 "Design: Figma",
                 "Front-end: HTML, ReactJS, SASS, Boostrap"
             ]
+        },
+        "referenceUrl": {
+            "Figma": "https://www.figma.com/file/DnuEQnqQ5FTV71X62PY3CB/Showing?type=design&node-id=0%3A1&mode=design&t=ySYOqW9F4S5eraxH-1",
+            "Deploy": "https://panh9151.github.io/anh_portfolio/",
+            "Src": "https://github.com/panh9151/anh_portfolio"
         }
     }
 ]
