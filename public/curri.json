@@ -1,0 +1,76 @@
+[
+    {
+        "title": "Overview",
+        "icon": "glasses",
+        "contents": [
+            {
+                "heading": null,
+                "list": [
+                    "Strengths: Front-end technology and Back-end web application development",
+                    "Proficiency in HTML, CSS, JavaScript",
+                    "Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model",
+                    "Thorough under standing of React.js and it score principles",
+                    "Familiarity with newer specifications of EcmaScript"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Career Objective",
+        "icon": "target",
+        "contents": [
+            {
+                "heading": null,
+                "list": [
+                    "In 3-6 months: Focus on working and honing skills, enhancing proficiency at the fresher level. Simultaneously, seek opportunities to be a junior developer.",
+                    "In 3-5 years: Dedicate time to extensive investment in specialized knowledge, aiming to become an expert in your field. Attain the qualifications necessary to be a senior developer."
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Skills",
+        "icon": "piece",
+        "contents": [
+            {
+                "heading": "Technical",
+                "list": [
+                    "HTML, CSS, & JavaScript (ES6)",
+                    "Boostrap, SCSS",
+                    "ReactJS"
+                ]
+            },
+            {
+                "heading": "Others",
+                "list": [
+                    "UI website design with Figma",
+                    "Database design, MySQL, RESTful API with ExpressJS"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Education",
+        "icon": "graduate",
+        "contents": [
+            {
+                "heading": null,
+                "list": [
+                    "2022-now: FPT Polytechnic College"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Experience",
+        "icon": "case",
+        "contents": [
+            {
+                "heading": null,
+                "list": [
+                    "No specialized work experience"
+                ]
+            }
+        ]
+    }
+]

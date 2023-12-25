@@ -3,7 +3,7 @@ import Portfolio from "./components/Portfolio"
 import CurriculumnVitae from "./components/CurriculumVitae"
 
 import "./scss/main.scss"
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 function App() {
   const [cv, setCv] = useState("CV");

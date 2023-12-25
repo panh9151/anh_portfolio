@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TabPane, Pane } from "./Parts";
+import { TabPane, Pane } from "./Pane";
 
 export default function Portfolio(props) {
     const [pane, setPane] = useState("projects")
