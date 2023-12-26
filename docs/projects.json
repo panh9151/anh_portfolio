@@ -23,21 +23,21 @@
             },
             {
                 "name": "Bootstrap",
-                "color": "5ED3F3"
+                "color": "7610f2"
             }
         ],
         "table": {
             "Client": "Self",
-            "Descriptions": "Website for showing portfolio (https://panh9151.github.io/anh_portfolio/)",
+            "Descriptions": "Website for showing Anh's portfolio (^.^)",
             "Number of members": 1,
             "Position": "Design + Front-end developer (ReactJS)",
             "Responsibilities": [
-                "Design interface (https://www.figma.com/file/DnuEQnqQ5FTV71X62PY3CB/Showing?type=design&node-id=0%3A1&mode=design&t=ySYOqW9F4S5eraxH-1)",
+                "Design interface",
                 "Build Front-end with ReactJS"
             ],
             "Technology in use": [
                 "Design: Figma",
-                "Front-end: HTML, ReactJS, SASS, Boostrap"
+                "Front-end: HTML, ReactJS, SASS, Bootstrap"
             ]
         },
         "referenceUrl": {

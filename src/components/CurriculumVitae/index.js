@@ -194,7 +194,7 @@ const CV = () => {
                             <Overview
                                 phone="0794437748"
                                 birth="26/11/2003"
-                                address="HCM"
+                                address="Binh Tan, HCM"
                                 email="panh9151@gmail.com"
                             />
                         </div>

@@ -27,24 +27,24 @@
         "name": "Bootstrap",
         "reference": "CSS",
         "type": "frontend",
-        "color": "5ED3F3"
+        "color": "7610f2"
     },
     {
         "name": "Javascript",
         "reference": null,
         "type": "both",
-        "color": "5ED3F3"
+        "color": "f5d032"
     },
     {
         "name": "Nodejs",
         "reference": "Javascript",
         "type": "backend",
-        "color": "5ED3F3"
+        "color": "88c049"
     },
     {
         "name": "T-SQL",
-        "reference": "",
+        "reference": null,
         "type": "backend",
-        "color": "5ED3F3"
+        "color": "d47131"
     }
 ]

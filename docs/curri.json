@@ -6,11 +6,12 @@
             {
                 "heading": null,
                 "list": [
-                    "Strengths: Front-end technology and Back-end web application development",
                     "Proficiency in HTML, CSS, JavaScript",
                     "Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model",
-                    "Thorough under standing of React.js and it score principles",
-                    "Familiarity with newer specifications of EcmaScript"
+                    "Familiarity with newer specifications of EcmaScript",
+                    "Ability to learn and apply new technology quickly",
+                    "Proficient use of source code management tool GIT",
+                    "Keen on learning from seasoned professionals"
                 ]
             }
         ]
@@ -36,7 +37,7 @@
                 "heading": "Technical",
                 "list": [
                     "HTML, CSS, & JavaScript (ES6)",
-                    "Boostrap, SCSS",
+                    "Bootstrap, SCSS",
                     "ReactJS"
                 ]
             },
@@ -56,7 +57,7 @@
             {
                 "heading": null,
                 "list": [
-                    "2022-now: FPT Polytechnic College"
+                    "2021-now: FPT Polytechnic College"
                 ]
             }
         ]

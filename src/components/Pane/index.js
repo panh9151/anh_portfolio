@@ -70,7 +70,7 @@ const projectDetailHandle = (cv, setCv, id) => {
 const ProjectList = (props) => {
     const list = props.list;
     return <span className="mt-2 w-100 overflow-hidden row ms-0 me-0">
-        {list.map((item, index) => {
+        {list.sort((a, b) => b.index - a.index).map((item, index) => {
             return <div key={index} className="mb-3 col-lg-6">
                 <button
                     key={index}
@@ -121,7 +121,7 @@ const ProjectList = (props) => {
 const GameList = (props) => {
     const list = props.list;
     return <div className="mt-3 w-100 overflow-hidden row ms-0 me-0">
-        {list.map((item, index) => {
+        {list.sort((a, b) => b.index - a.index).map((item, index) => {
             return <div key={index} className="col-lg-2">
                 <button
                     className={(props.cv === item.id)
@@ -283,7 +283,14 @@ const Skills = (props) => {
                     <GetIcons type="circleLine" />
                     Front-end Skills
                 </h2>
-                <p className="skill__describe">Front-end is an essential component of the user interface of a web application, as it is the part that directly interacts with the user. As a front-end developer, my goal is always to optimize the UI/UX of the website to ensure the best possible user experience. I focus on graphic design, page loading speed optimization, improving interactivity, and ensuring consistency across different devices</p>
+                <p className="skill__describe">
+                    My primary focus for future development lies in front-end technologies.
+                    I am passionate about delving into the intricacies of crafting website interfaces and
+                    responsive web applications, employing tools such as HTML, CSS, and Javascript, with
+                    a particular emphasis on frameworks like ReactJS. My goal is to consistently deliver
+                    products that are not only visually appealing but also function seamlessly when presented
+                    to customers, reflecting a commitment to precision and excellence in my work.
+                </p>
                 <div className="skill__languages">
                     {languages.map((item, index) => {
                         return <div className="skill__languages-wrapper" key={index}>
@@ -298,7 +305,15 @@ const Skills = (props) => {
                     <GetIcons type="circleLine" />
                     Back-end Skills
                 </h2>
-                <p className="skill__describe">Back-end is an essential component of the user interface of a web application, as it is the part that directly interacts with the user. As a front-end developer, my goal is always to optimize the UI/UX of the website to ensure the best possible user experience. I focus on graphic design, page loading speed optimization, improving interactivity, and ensuring consistency across different devices</p>
+                <p className="skill__describe">
+                    My primary focus lies in front-end development.
+                    However, I also want to into the backend and design as a supplementary area of interest.
+                    That's how I depth-understand "How" and "Why" everything works. I am actively expanding my
+                    skill set to encompass backend development. I find satisfaction in understanding backend
+                    technologies, including server-side logic and database management. Exploring languages such
+                    as and Node.js, along with frameworks Express, allows me to contribute to the comprehensive
+                    development of web applications.
+                </p>
                 <div className="skill__languages">
                     {languages.map((item, index) => {
                         return <div className="skill__languages-wrapper" key={index}>
@@ -320,7 +335,7 @@ export function Pane(props) {
         fetch("/anh_portfolio/languages.json")
             .then(res => res.json())
             .then(data => setLanguages(data))
-    }, [])
+    }, [props.pane])
 
     const [projectList, setProjectList] = useState([])
 
